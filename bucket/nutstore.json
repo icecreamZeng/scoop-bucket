@@ -13,10 +13,6 @@
             "坚果云"
         ]
     ],
-    "checkver": {
-        "url": "https://www.jianguoyun.com/s/downloads/",
-        "regex": "Latest version: ([\\d.]+)"
-    },
 	"autoupdate": {
         "url":"https://www.jianguoyun.com/static/exe/installer/NutstoreWindowsWPFInstaller.exe",
     }
