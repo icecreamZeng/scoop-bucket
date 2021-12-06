@@ -1,16 +1,16 @@
 on:
   issues:
     types: [ opened, labeled ]
-name: Issues
+name: Issue
 jobs:
   issueHandler:
-    runs-on: ubuntu-latest
-    name: Issue Verification
+    name: Issue Handler
+    runs-on: windows-latest
     steps:
-      - uses: actions/checkout@main
-      - name: Verify Issue
-        uses: Ash258/Scoop-GithubActions@stable
-        if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
-        env:
-          GITH_EMAIL: youremail@email.com
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@main
+    - name: Issue Handler
+      uses: shovel-org/GithubActions@main
+      if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
+      env:
+        GITH_EMAIL: zenghao2015xks@163.com
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
