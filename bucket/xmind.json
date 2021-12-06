@@ -1,41 +1,41 @@
 {
-	"homepage":"https://www.xmind.net/",
-	"description":"XMind, a full-featured mind mapping and brainstorming tool, designed to generate ideas, inspire creativity, brings efficiency both in work and life. Millions and millions of people love it.",
-	"License":"shareware",
-	"version":"11.1.2",
-	"architecture":{
-		"64bit":{
-				"url":"https://www.xmind.net/zen/download/win64/#/dl.7z",
-				"hash": "cb201e97a99fa1b30520ce78ab16fdf8ceea9c43686d102fe0409a92efe2515d",
-            	"installer": {
-	                "script": [
-	                    "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
-	                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
-	                ]
-            	}
-		},
-		"32bit":{
-				"url": "https://www.xmind.net/zen/download/win32/#/dl.7z",
-            	"hash": "7099f476850e2a3a3d1a71dac1635af914412556dc3b1b3048fc68cec239d2cd",
-            	"installer": {
-	                "script": [
-	                    "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" -Removal",
-	                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
-	                ]
-            	}
+    "homepage": "https://www.xmind.net/",
+    "description": "XMind, a full-featured mind mapping and brainstorming tool, designed to generate ideas, inspire creativity, brings efficiency both in work and life. Millions and millions of people love it.",
+    "License": "shareware",
+    "version": "2021",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.xmind.net/zen/download/win64/#/dl.7z",
+            "hash": "cb201e97a99fa1b30520ce78ab16fdf8ceea9c43686d102fe0409a92efe2515d",
+            "installer": {
+                "script": [
+                    "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+                ]
+            }
+        },
+        "32bit": {
+            "url": "https://www.xmind.net/zen/download/win32/#/dl.7z",
+            "hash": "7099f476850e2a3a3d1a71dac1635af914412556dc3b1b3048fc68cec239d2cd",
+            "installer": {
+                "script": [
+                    "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" -Removal",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+                ]
+            }
         }
-	},
-	"checkver": {
+    },
+    "checkver": {
         "url": "https://www.xmind.net/desktop/release-notes/",
         "regex": "<h5 class=\"text-muted\">([\\d.]+)"
     },
-	"shortcuts": [
+    "shortcuts": [
         [
             "XMind.exe",
             "XMind"
         ]
     ],
-	"autoupdate": {
+    "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://www.xmind.net/zen/download/win64/#/dl.7z"
