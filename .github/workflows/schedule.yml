@@ -12,5 +12,5 @@ jobs:
       uses: shovel-org/GithubActions@main
       env:
         GITH_EMAIL: zenghao2015xks@163.com
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.SCOOP_ACTION_TOKEN }}
         SKIP_UPDATED: '1'
