@@ -1,9 +1,9 @@
 {
-	"homepage":"https://www.xmind.net/",
-	"description":"XMind, a full-featured mind mapping and brainstorming tool, designed to generate ideas, inspire creativity, brings efficiency both in work and life. Millions and millions of people love it.",
+	"homepage":"https://www.jianguoyun.com/",
+	"description":"Share your files anytime, anywhere, with any device",
 	"License":"shareware",
 	"version":"5.2.4",
-	"url":"https://www.jianguoyun.com/static/exe/installer/NutstoreWindowsWPFInstaller.exe",
+	"url":"https://www.jianguoyun.com/static/exe/installer/NutstoreWindowsWPFInstaller.exe#/dl.7z",
 	"hash":"1d47a0f46a9b48e5ce595c392dad2daa0d41ff195f07e1ec5a14c8d55ca3f46a",
 	"innosetup":true,
 	"shortcuts": [
@@ -14,6 +14,6 @@
         ]
     ],
 	"autoupdate": {
-        "url":"https://www.jianguoyun.com/static/exe/installer/NutstoreWindowsWPFInstaller.exe",
+        "url":"https://www.jianguoyun.com/static/exe/installer/NutstoreWindowsWPFInstaller.exe#/dl.7z",
     }
 }
