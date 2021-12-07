@@ -1,0 +1,14 @@
+{
+	"homepage": "https://www.hi-pda.com/forum/viewthread.php?tid=645717",
+	"description":"EasyPub：转换txt到epub和mobi",
+	"license":"shareware",
+	"version":"v1.50",
+	"url":"https://www.hi-pda.com/forum/attachment.php?aid=MjMwNzczOXxiOWJkYjBhYXwxNjM4ODM2ODg1fDhkNzRSeG04ZVNSMjFrcE1vUWhnd0JCS1pKZFp0U3Y5SkI5VGM3Z0toTVZURTZr&sid=zGdRhu",
+	"hash":"1b507bec483731988fa3a9014dfc59d17340473663c0a4c7805bf598e67edf03",
+    "shortcuts": [
+	    [
+	        "EasyPub.exe",
+	        "EasyPub"
+	    ]
+    ]
+}
