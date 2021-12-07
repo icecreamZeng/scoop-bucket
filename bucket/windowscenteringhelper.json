@@ -10,7 +10,7 @@
 	        "WindowCenteringHelper.exe",
 	        "Window Centering Helper"
 	    ]
-    ]
+    ],
     "checkver": {
 	    "url": "https://kamilszymborski.github.io/",
 	    "regex": ">([\\d.]+)"
