@@ -1,0 +1,21 @@
+{
+	"homepage": "https://kamilszymborski.github.io/",
+	"description":"can centers window manually or automatically",
+	"license":"shareware",
+	"version":"1.2.11",
+	"url":"https://kamilszymborski.github.io/WindowCenteringHelper-SE.exe",
+	"hash":"7d4f3fda515f2d3d0569678e4c07e52cedb035b7939fb4e61430bae58d09f776",
+    "shortcuts": [
+	    [
+	        "WindowCenteringHelper.exe",
+	        "Window Centering Helper"
+	    ]
+    ]
+    "checkver": {
+	    "url": "https://kamilszymborski.github.io/",
+	    "regex": ">([\\d.]+)"
+	},
+	"autoupdate":{
+		"url":"https://kamilszymborski.github.io/WindowCenteringHelper-SE.exe"
+	}
+}
