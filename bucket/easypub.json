@@ -3,8 +3,8 @@
 	"description":"EasyPub：转换txt到epub和mobi",
 	"license":"shareware",
 	"version":"v1.50",
-	"url":"https://github.com/icecreamZeng/scoop-bucket/raw/master/backup/easypub.zip",
-	"hash":"ee5207318db5ed77d6b681cfb42780790ac5703ea6e0fe7071f6a69d41bb0d8e",
+	"url":"https://sourceforge.net/projects/icecreamzeng/files/tools/EasyPub.zip",
+	"hash":"477560381ddcda5e4426695a75d506de370189433b9dae99100f45cac7e534d0",
     "shortcuts": [
 	    [
 	        "EasyPub.exe",
