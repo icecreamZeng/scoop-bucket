@@ -1,0 +1,21 @@
+{
+	"homepage": "https://github.com/HaujetZhao/QuickCut",
+	"description":"Quick Cut 是一款轻量、强大、好用的视频处理软件。",
+	"license":"MPL-2.0",
+	"version":"1.6.10",
+	"url":"https://sourceforge.net/projects/icecreamzeng/files/tools/QuickCut/QuickCut_v1.6.10_Win64_pyinstaller.7z",
+	"hash":"3e6de4b65f10a65d2b8ed567b68838d97f84bbd7e9c3dc4cd40738c11fb40d45",
+    "shortcuts": [
+	    [
+	        "QuickCut/QuickCut.exe",
+	        "QuickCut"
+	    ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/icecreamzeng/files/tools/QuickCut/",
+        "regex": "QuickCut_v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/icecreamzeng/files/tools/QuickCut/QuickCut_v$version_Win64_pyinstaller.7z"
+    }
+}
