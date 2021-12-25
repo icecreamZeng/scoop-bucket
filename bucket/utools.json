@@ -1,0 +1,46 @@
+{
+    
+    "homepage": "https://u.tools/",
+    "description":"新一代效率工具平台，自由组合丰富插件，打造随手可取的终极神器",
+    "license": "Unknown",
+    "version": "2.5.1",
+    "checkver": {
+        "url": "https://u.tools/",
+        "regex": "uTools-([\\d.]+)\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://res.u-tools.cn/version2/uTools-$version.exe#/uTools.7z"
+            },
+            "32bit": {
+                "url": "https://res.u-tools.cn/version2/uTools-$version-ia32.exe#/uTools.7z"
+            }
+        }
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://res.u-tools.cn/version2/uTools-2.5.1.exe#/uTools.7z",
+            "hash": "936ea4c269a42a7bebc18da0eb64e83e531eabf37086995a03d0f3726cefbc1c",
+            "installer": {
+                "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
+            }
+        },
+        "32bit": {
+            "url": "https://res.u-tools.cn/version2/uTools-2.5.1-ia32.exe#/uTools.7z",
+            "hash": "49ef087211df489a5a9fe38a7792646fde96fa1141d28b5c17be839389cc4df8",
+            "installer": {
+                "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
+            }
+        }
+    },
+    "extract_dir": "$PLUGINSDIR",
+    "extract_to": "PLUGINSDIR",
+    "post_install": "rm $original_dir/PLUGINSDIR -recurse",
+    "shortcuts": [
+        [
+            "uTools.exe",
+            "uTools"
+        ]
+    ]
+}
