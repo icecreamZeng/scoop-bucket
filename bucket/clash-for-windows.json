@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
     "description": "A Windows/macOS/Linux GUI based on Clash and Electron.",
-    "version": "0.19.11",
+    "version": "0.19.13",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.11/Clash.for.Windows.Setup.0.19.11.exe#/dl.7z",
-            "hash": "74c0af89779efb729cdcc92d5af96046a2518fbe85c083a0b0f3efedf7b3654f"
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.13/Clash.for.Windows.Setup.0.19.13.exe#/dl.7z",
+            "hash": "5cf681592b1dfcd4917d1e05b042b8eac4f5ea8a8cf88ddb68664d875e0e24b6"
         },
         "32bit": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.11/Clash.for.Windows.Setup.0.19.11.ia32.exe#/dl.7z",
-            "hash": "803b86aaa152f95036f4099586a749b8dcdcefed3cb712f9de53ee3bd0ad76d0"
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.13/Clash.for.Windows.Setup.0.19.13.ia32.exe#/dl.7z",
+            "hash": "bf135c5e35cddaf803050cf0493b369a4ccf2e4f495987b4f55c9055dac3d30f"
         }
     },
     "installer": {
