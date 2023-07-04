@@ -2,11 +2,11 @@
     "homepage": "https://www.xmind.net/",
     "description": "XMind, a full-featured mind mapping and brainstorming tool, designed to generate ideas, inspire creativity, brings efficiency both in work and life. Millions and millions of people love it.",
     "License": "shareware",
-    "version": "2023-06-02",
+    "version": "2023-07-04",
     "architecture": {
         "64bit": {
             "url": "https://www.xmind.net/zen/download/win64/#/dl.7z",
-            "hash": "586a8a952e2649f62cbb493d5c32d2e50f3625d8996e493ecd6c4afbb3b22b05",
+            "hash": "f97f99e775037250c6b1bb4bda5279934e99544b5197815ca9550f35c0dda617",
             "installer": {
                 "script": [
                     "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
