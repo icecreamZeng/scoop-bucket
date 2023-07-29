@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.xmind.net/zen/download/win64/#/dl.7z",
-            "hash": "1090af6a19eddf8a1d27b7e5e6ff8780a785134364a497de13364d898895e562",
+            "hash": "ec9aa12b0ba1fcf802d66347d2c80342f927842a2df0b066cdda063010d2ad87",
             "installer": {
                 "script": [
                     "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
