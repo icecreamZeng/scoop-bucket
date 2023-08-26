@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/phaselden/FlipIt/releases/download/v1.1/FlipIt.scr",
-            "hash": "ae9c2434eaa38183c4957ed356542fd74401557e4a9f3ad1947fb0158b5babcd"
+            "hash": "a2f6fb1eaedd66e402dc6f1df4771733053e0904c456a544912a6dbaf4ddecac"
         },
         "32bit": {
             "url": "https://github.com/phaselden/FlipIt/releases/download/v1.1/FlipIt.scr",
-            "hash": "ae9c2434eaa38183c4957ed356542fd74401557e4a9f3ad1947fb0158b5babcd"
+            "hash": "a2f6fb1eaedd66e402dc6f1df4771733053e0904c456a544912a6dbaf4ddecac"
         }
     },
     "bin": "FlipIt.scr",
