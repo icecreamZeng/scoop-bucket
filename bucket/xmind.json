@@ -27,7 +27,7 @@
     },
     "checkver": {
         "url": "https://www.xmind.net/desktop/release-notes/",
-        "regex": "<h3 class=\"mt-5 mb-1\">([\\d.]+)"
+        "regex": "<h5 class=\"text-muted\">([\\d-]+)"
     },
     "shortcuts": [
         [
