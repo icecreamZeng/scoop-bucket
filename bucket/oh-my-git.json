@@ -3,6 +3,7 @@
   "description": "An open source game about learning Git!",
   "license": "Unknown",
   "version": "0.6.4",
+  "url": "https://sourceforge.net/projects/icecreamzeng/files/games/oh-my-git/0.6.4/oh-my-git-windows.zip"
   "shortcuts": [
 	    [
 	        "oh-my-git.exe",
