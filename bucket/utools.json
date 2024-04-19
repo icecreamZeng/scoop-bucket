@@ -2,7 +2,7 @@
     "homepage": "https://u.tools/",
     "description": "新一代效率工具平台，自由组合丰富插件，打造随手可取的终极神器",
     "license": "Unknown",
-    "version": "4.0.0",
+    "version": "5.0.0",
     "checkver": {
         "url": "https://u.tools/download/",
         "regex": "uTools-([\\d.]+)\\.exe"
@@ -20,7 +20,7 @@
     "architecture": {
         "64bit": {
             "url": "https://open.u-tools.cn/download/uTools-5.0.0.exe#/uTools.7z",
-            "hash": "b4e802d939ede53d92a1a5866715c6cbce244afbf175545b5b4d0043429cf5cd",
+            "hash": "ef57a432641657cda3b6c4b498c6432fe21504a4d596a0c71ef3d1e829e9b722",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
