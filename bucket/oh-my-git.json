@@ -2,7 +2,7 @@
   "homepage":"https://ohmygit.org/",
   "description": "An open source game about learning Git!",
   "license": "Unknown",
-  "version": "0.6.5",
+  "version": "0.6.4",
   "shortcuts": [
 	    [
 	        "oh-my-git.exe",
