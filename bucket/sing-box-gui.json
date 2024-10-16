@@ -21,6 +21,12 @@
         }
     },
     "bin": "GUI.for.SingBox.exe",
+    "shortcuts": [
+	    [
+	        "War3.exe",
+	        "魔兽争霸之冰封王座"
+	    ]
+    ]
     "persist": "config",
     "checkver": {
         "github": "https://github.com/GUI-for-Cores/GUI.for.SingBox"
