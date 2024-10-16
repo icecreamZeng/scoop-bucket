@@ -26,7 +26,7 @@
 	        "SingBox"
 	    ]
     ]
-    "persist": "config",
+    "persist": "data",
     "checkver": {
         "github": "https://github.com/GUI-for-Cores/GUI.for.SingBox"
     },
