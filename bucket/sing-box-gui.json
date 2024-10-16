@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.7",
+    "version": "1.8.8",
     "description": "GUI for SingBox",
     "homepage": "https://github.com/GUI-for-Cores/GUI.for.SingBox",
     "license": {
@@ -9,15 +9,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.8.8/GUI.for.SingBox-windows-amd64.zip",
-            "hash": "8ee3e6beaa94fb961b91c845446e3300cf0e995cb3995448da320ead88b8666b"
+            "hash": "2ea878905e419c94fd93dee4edcfcf8a00cedc0dfa2d927c53e54afbc490d8eb"
         },
         "32bit": {
             "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.8.8/GUI.for.SingBox-windows-386.zip",
-            "hash": "434dbb11a8615a38771ca3871d3f85fc0b7e949dd9ea36735da8eb2a98818e92"
+            "hash": "c99709686caf88e2f3469876acab2cad7baeadabffcc04d69da0c0965646e651"
         },
         "arm64": {
             "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.8.8/GUI.for.SingBox-windows-arm64.zip",
-            "hash": "6bfd199d660251d5ce65b922e32378fceaed5b907bac37473ac8c448b549e6c7"
+            "hash": "e3249cddb5404e2a25c348fc6ed114547e0264cb0860675a28fdaa1586f258d0"
         }
     },
     "bin": "GUI.for.SingBox.exe",
