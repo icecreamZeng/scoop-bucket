@@ -1,10 +1,10 @@
 {
     "version": "v1.8.7",
-    "description": "The universal proxy platform.",
-    "homepage": "https://sing-box.sagernet.org",
+    "description": "GUI for SingBox",
+    "homepage": "https://github.com/GUI-for-Cores/GUI.for.SingBox",
     "license": {
-        "identifier": "Freeware",
-        "url": "https://github.com/SagerNet/sing-box/blob/main/LICENSE"
+        "identifier": "GPL-3.0 license",
+        "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/blob/main/LICENSE"
     },
     "architecture": {
         "64bit": {
