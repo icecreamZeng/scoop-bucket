@@ -23,8 +23,8 @@
     "bin": "GUI.for.SingBox.exe",
     "shortcuts": [
 	    [
-	        "War3.exe",
-	        "魔兽争霸之冰封王座"
+	        "GUI.for.SingBox.exe",
+	        "SingBox"
 	    ]
     ]
     "persist": "config",
