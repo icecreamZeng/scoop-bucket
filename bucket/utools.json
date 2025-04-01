@@ -2,7 +2,7 @@
     "homepage": "https://u.tools/",
     "description": "新一代效率工具平台，自由组合丰富插件，打造随手可取的终极神器",
     "license": "Unknown",
-    "version": "6.1.0",
+    "version": "7.0.0",
     "checkver": {
         "url": "https://u.tools/download/",
         "regex": "uTools-([\\d.]+)\\.exe"
@@ -19,15 +19,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://open.u-tools.cn/download/uTools-6.1.0.exe#/uTools.7z",
-            "hash": "b6eea8420f124dda26823c846f846f04bd2ceb6693303a7d7d273d43ceabd892",
+            "url": "https://open.u-tools.cn/download/uTools-7.0.0.exe#/uTools.7z",
+            "hash": "eca3f934dd2c5c8203286b9eaff198a16708a836148968e468da4258b8b0c9a9",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
-            "url": "https://open.u-tools.cn/download/uTools-6.1.0-ia32.exe#/uTools.7z",
-            "hash": "1cd987fdbabb7b64f13d416cd5ae5918cad1d9c5e5882d53b49d84467c5d2b7d",
+            "url": "https://open.u-tools.cn/download/uTools-7.0.0-ia32.exe#/uTools.7z",
+            "hash": "21e802924df15f8e349b7b498de88a084bde4945230205ac60fc31b40f4cf36e",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
             }
