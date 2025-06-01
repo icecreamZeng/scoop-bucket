@@ -16,7 +16,7 @@
         "Remove-Item -Force -Recurse \"$dir\\`$TEMP\""
     ],
     "checkver": {
-        "url": "https://www.aliyundrive.com/download/",
+        "url": "https://www.aliyundrive.com/desktop/version/update.json",
         "regex": "/([\\d.]+)"
     },
     "autoupdate": {
